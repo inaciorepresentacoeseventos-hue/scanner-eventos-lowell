@@ -1,1 +1,1 @@
-# scanner-eventos-lowell
+Projeto inicial do Scanner LOWELL. Integracao com Apps Script sera feita na proxima etapa.

@@ -1,0 +1,1 @@
+window.addEventListener('load',()=>{const o=document.getElementById('status');const q=new Html5Qrcode('reader');q.start({facingMode:'environment'},{fps:10,qrbox:250},t=>{o.textContent='QR lido: '+t;q.stop();},()=>{}).catch(e=>o.textContent='Erro ao iniciar câmera: '+e);});
